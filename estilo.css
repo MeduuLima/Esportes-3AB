@@ -1,9 +1,23 @@
-body{
-background-color: azure;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
 .container {
     position: relative;
-    width: 70%;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    overflow: hidden;
 }
 
 .container img {
@@ -13,12 +27,24 @@ background-color: azure;
 
 .text-overlay {
     position: absolute;
-    top: 50%; 
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white; 
-    font-size: 24px; 
-    background-color: rgba(233, 0, 0, 0.5); 
-    padding: 10px; 
-    border-radius: 5px;
-        }
+    color: white;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 80%; /* Ajusta a largura máxima do texto */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
