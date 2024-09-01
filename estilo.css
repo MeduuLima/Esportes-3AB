@@ -2,7 +2,7 @@ body{
 background-color: azure;
 }
 .container {
-    position: 100px;
+    position: relative;
     width: 70%;
 }
 
@@ -13,12 +13,12 @@ background-color: azure;
 
 .text-overlay {
     position: absolute;
-    top: 50%; /* Ajuste a posição vertical conforme necessário */
+    top: 50%; 
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white; /* Cor do texto */
-    font-size: 24px; /* Tamanho da fonte */
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para melhor legibilidade */
-    padding: 10px; /* Espaçamento ao redor do texto */
-            border-radius: 5px; /* Bordas arredondadas */
+    color: white; 
+    font-size: 24px; 
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding: 10px; 
+    border-radius: 5px;
         }
