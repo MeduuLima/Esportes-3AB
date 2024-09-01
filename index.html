@@ -1,57 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Site com Imagem e Recado</title>
-  <style>
-      body {
-          font-family: Arial, sans-serif;
-          margin: 0;
-          padding: 0;
-          background-color: #f4f4f4;
-      }
-
-      header {
-          background-color: #333;
-          color: white;
-          padding: 10px 0;
-          text-align: center;
-      }
-
-      .container {
-          position: relative;
-          width: 100%;
-          max-width: 1200px;
-          margin: 20px auto;
-          overflow: hidden;
-      }
-
-      .container img {
-          width: 100%;
-          height: auto;
-      }
-      
-      .text-overlay {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: white;
-            font-size: 24px;
-            background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
-            padding: 15px;
-            border-radius: 10px;
-            text-align: center;
-            max-width: 80%; /* Ajusta a largura máxima do texto */
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: absolute;
-            width: 100%;
-            bottom: 0;
-        }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site com Imagem e Recado</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site</h1>
+    </header>
+    
+    <div class="container">
+        <img src="caminho/para/sua/imagem.jpg" alt="Descrição da Imagem">
+        <div class="text-overlay">Este é o recado sobre a imagem. Adicione o texto que desejar aqui.</div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
