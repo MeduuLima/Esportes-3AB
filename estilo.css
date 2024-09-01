@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 
 header {
@@ -21,6 +21,7 @@ header {
 }
 
 .container img {
+    position: center;
     width: 100%;
     height: auto;
 }
