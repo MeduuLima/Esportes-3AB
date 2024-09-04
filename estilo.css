@@ -53,7 +53,7 @@ header {
         padding: 20px;
         background-color: white;
         border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 2px 4px rgba(202, 28, 28, 0.945);
     }
     
     .info p, .details p, .volunteers p {
