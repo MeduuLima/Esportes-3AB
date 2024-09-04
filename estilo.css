@@ -49,7 +49,7 @@ header {
     
     .info h2, .details h2, .volunteers h2 {
         margin-top: 0;
-        color: #fd2c2c;
+        color: #333;
     }
     
     .info p, .details p, .volunteers p {
