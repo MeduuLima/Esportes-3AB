@@ -2,7 +2,7 @@ body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #556cf0c9;
+    background-color: #7688f0;
 }
 
 header {
@@ -32,11 +32,11 @@ header {
     transform: translate(-50%, -50%);
     color: white;
     font-size: 24px;
-    background-color: rgba(248, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 15px;
     border-radius: 10px;
     text-align: center;
-    max-width: 80%; }
+    }
 
     .info, .details, .volunteers {
         max-width: 1200px;
